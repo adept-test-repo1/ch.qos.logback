@@ -1,0 +1,35 @@
+{
+  "id" : "logback-core",
+  "variants" : [ "d08b1332066c7a2684fa1a9a56f40573e30dfcd1fe0bc8eeb121d8e9db1e2dd9", "77dee33ccca07e230bd54b91cb75780fbeb5d92afaff9a5d2588e1cd8ec30d10", "bacd314aa209ce9cfd9cb535fe21c2dd48ce9c4fe756fe8d65a37b9ae263a73f", "aa16fd44fa8dfd52b6df54c3810ef8ed17e7e3a800d5faf27d580bdceffca7df", "5ce4390f273e1db5337d2e036b78719ff5e64d5fcd58e7435ba0d29bc1777b87", "b289736b494862b7dcf449f3ce075d6bc011908a65ae044e5b9fc5cb7dcbcd73", "200f49bf60f096f61f657e4bf4d1ed41e6bd71f4faf40483fb7f0658a76b7a9e", "f8ebe950d2e11df1bc6154e506c17d423e9024cb01a0a459a82c6078942951b3", "70c8118fdb5a62f0bd095ad9ed7fc66d26aed6e08f3ebbbc2889715b0fc1f5b5", "ed1b24ef6de4111b07d2f468d20f560ad41889252961ae2974ef84bbd45a11ad", "039f738766c259694693966f1a3a23dda5262b729a14940e7df6a634accc7522" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ ]
+  }, {
+    "id" : "system",
+    "repositories" : [ ]
+  }, {
+    "id" : "master",
+    "repositories" : [ ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ ]
+  }, {
+    "id" : "default",
+    "repositories" : [ ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ ]
+  } ]
+}

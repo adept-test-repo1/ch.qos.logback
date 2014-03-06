@@ -1,0 +1,132 @@
+{
+  "id" : "logback-core",
+  "info" : { },
+  "attributes" : {
+    "organization" : [ "ch.qos.logback" ],
+    "name" : [ "logback-core" ],
+    "version" : [ "1.0.13" ]
+  },
+  "configurations" : [ {
+    "id" : "sources",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "javadoc",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "master",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ {
+      "hash" : "ecd8f24f9b2941284e98f154ff3343e720cb31c8f47b67554b145745f596f3b8",
+      "attributes" : {
+        "configurations" : [ "master" ]
+      },
+      "filename" : "logback-core-1.0.13.jar"
+    } ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "compile",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "test",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "system",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "default",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ {
+      "hash" : "ecd8f24f9b2941284e98f154ff3343e720cb31c8f47b67554b145745f596f3b8",
+      "attributes" : {
+        "configurations" : [ "master" ]
+      },
+      "filename" : "logback-core-1.0.13.jar"
+    } ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "runtime",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "provided",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  }, {
+    "id" : "optional",
+    "extends-configurations" : [ ],
+    "info" : { },
+    "artifacts" : [ ],
+    "attributes" : {
+      "organization" : [ "ch.qos.logback" ],
+      "name" : [ "logback-core" ],
+      "version" : [ "1.0.13" ]
+    },
+    "requirements" : [ ]
+  } ]
+}
