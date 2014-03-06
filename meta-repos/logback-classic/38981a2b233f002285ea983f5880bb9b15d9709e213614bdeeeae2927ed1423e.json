@@ -1,0 +1,915 @@
+{
+  "id" : "logback-classic",
+  "variants" : [ "9a560889c10f61e079130260ec34b42845bdf3a27ab492fdb8637a9d85d76997", "93243a73ab177dca5bfe731b7cd454996001f1675ff03e5b7f8ad6e45c5c96f0", "a325f04f0066993deff2802df21430700f8551a4e87f844cb3f5885098a49bd1", "295eb221db4e724e6df6b2c4398492e9f7dce82424500255e29141ec899de959", "cd8b26651977f6aaff3408e74d7f39ec0d1bf6dbf1a35a75422cdf7ed36d42dd", "c5f4b47fa5788fdc8e6e3d359f1cf13702caf32df3a2e1f26c63d2b660d6964f", "4c2e0a7dbda164c1b7bb4fba73b64943b803e0cdf8f4f4b67f22e3cf7c76f7f2", "06f4975d99098bf73ebee4283e62f153bab0d470908215c8297dadd2a193f4eb", "1f24063366a1fb205f6978e51cd36d52d82ba3c0e85ca6a1b27df839dc151fd0", "24344fd01160ed4dfc8a13726f9cc201ee37b8177a4e296374eb6ef6e3409035", "e1ce6aa5d24b9b41d6e713958629204e813319ed986521113a77c9d914d161bd" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "slf4j-api/config/provided",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/test",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/default",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/master",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/compile",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/optional",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/system",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/runtime",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/runtime",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/test",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/optional",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/compile",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/sources",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/javadoc",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/javadoc",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/master",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "slf4j-api/config/default",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "slf4j-api/config/sources",
+      "repository" : "org.slf4j",
+      "commit" : "b72a08aa76132618165c0982fed9beb758fefa9f"
+    }, {
+      "id" : "logback-core/config/system",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    }, {
+      "id" : "logback-core/config/provided",
+      "repository" : "ch.qos.logback",
+      "commit" : "c723688906af6824aea772c3a71a3a0b4391934d"
+    } ]
+  } ]
+}
